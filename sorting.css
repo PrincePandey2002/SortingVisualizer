@@ -1,0 +1,54 @@
+body{
+    background-color: #383232;
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+    font-size: 4rem;
+}
+
+button{
+    border-style: double;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 4px 6px 4px 6px;
+    transition: transform 0.7s ease-in, background-color 0.7s ease-in,color 0.3s ease-in;
+}
+
+button:hover{
+    /* background-color: #00FF00; */
+    background-color: #ce00ff;
+    color: white;
+    transform: scale(1.1);
+
+}
+
+#newarr{
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+#bubble,#selection,#insertion,#merge,#quick,#sizer,#speed{
+    margin-right: 20px;
+}
+
+#bar{
+    color: red;
+    margin-top: 2rem;
+    /* background-color: rgb(72, 72, 230); */
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-direction: row;
+    padding: 20px 30px 0px 10px;
+}
+  
+.baritem {
+    background: yellow;
+    border: 1.25px solid blue;
+    /* width: 0.75%; */
+    width: 0.85rem;
+    margin-right: 0.3rem;
+  }
